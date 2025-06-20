@@ -1,15 +1,12 @@
-import User from "./Propse-class/User";
+import Demo from "./Components1/Demo"
+import Navbar from "./Navbar/Navbar"
+//import '../node_modules/bootstrap/dist/css/bootstrap.css'
 let App = () =>{
-
   return <div>
-             <h2>App component</h2>
-             <hr />
-             <User/>
-         </div>
+            
+             <Navbar/>
 
+        </div>
 }
-export default App
-
-
-
+export default App;
 
